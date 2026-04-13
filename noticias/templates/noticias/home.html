@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jornal Online - Início</title>
+</head>
+
+<body>
+    <h1><ul>Notícias de Hoje</ul></h1>
+    <hr>
+    <ul>
+        {% for artigo in artigos %}
+        <li>
+            <a href="{% url 'detalhe_artigo' artigo.id %}">
+                <strong>{{ artigo.titulo }}</strong>
+            </a>
+        </li>
+        {% empty %}
+        <li>Ainda não foram publicadas notícias.</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

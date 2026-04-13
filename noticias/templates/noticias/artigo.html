@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ artigo.titulo }}</title>
+</head>
+
+<body>
+    <a href="{% url 'home' %}">⬅ Voltar à lista</a>
+
+    <h1>{{ artigo.titulo }}</h1>
+    <p style="white-space: pre-wrap;">{{ artigo.conteudo }}</p>
+
+    <hr>
+    <a href="{% url 'pagina_comentarios' artigo.id %}">
+        <button type="button">Ver e Publicar Comentários</button>
+    </a>
+</body>
+
+</html>
