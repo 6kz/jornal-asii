@@ -29,7 +29,7 @@ Este projeto é uma aplicação web desenvolvida em Django que simula um jornal 
 Para testar este projeto localmente, segue os passos abaixo:
 
 1. **Clonar o repositório:**
-   `git clone [https://github.com/O-TEU-UTILIZADOR/O-TEU-REPOSITORIO.git](https://github.com/O-TEU-UTILIZADOR/O-TEU-REPOSITORIO.git)`
+   `git clone [https://github.com/6k_z/jornal-asii.git](https://github.com/6k_z/jornal-asii.git)`
    `cd jornal`
 
 2. **Criar e ativar o ambiente virtual:**
