@@ -29,12 +29,12 @@ Este projeto é uma aplicação web desenvolvida em Django que simula um jornal 
 Para testar este projeto localmente, segue os passos abaixo:
 
 1. **Clonar o repositório:**
-   git clone [https://github.com/6k_z/jornal-asii.git](https://github.com/6k_z/jornal-asii.git)
-   `cd jornal`
+  - git clone [https://github.com/6k_z/jornal-asii.git](https://github.com/6k_z/jornal-asii.git)
+  - `cd jornal`
 
 2. **Criar e ativar o ambiente virtual:**
 
-   `python -m venv venv`
+  - `python -m venv venv`
 
    # No Windows:
 
@@ -45,16 +45,16 @@ Para testar este projeto localmente, segue os passos abaixo:
    `source venv/bin/activate`
 
 3. **Instalar o Django**
-   `pip install django`
+  - `pip install django`
 
 4. **Executar as migrações (configurar a base de dados):**
-   `python manage.py migrate`
+  - `python manage.py migrate`
 
 5. **Criar um superutilizador (para gerir o jornal):**
-   `python manage.py createsuperuser`
+  - `python manage.py createsuperuser`
 
 6. **Iniciar o servidor de desenvolvimento:**
-   `python manage.py runserver`
+  - `python manage.py runserver`
 
 7. **Aceder no browser:**
 
